@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <script src="../js/tmdb.js" defer></script>
+    <script src="../js/gsap.min.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <!-- <div class="header__serch">
+        <h1 class="head-title"><em>인기</em> 영화</h1>
+        <div class="header__search">
           <input type="text" class="search-txt" />
           <button class="btn search-btn"></button>
-        </div> -->
-        <h1 class="head-title"><em>인기</em> 영화</h1>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -28,6 +29,7 @@
           <button class="btn btn-pre">이전 페이지</button>
           <button class="btn btn-nxt">다음 페이지</button>
         </div>
+        <aside class="movie-detail"></aside>
       </section>
     </main>
   </body>
